@@ -13,4 +13,4 @@ RUN npm install
 COPY . .
 
 # Define the entry point for the container
-CMD ["npm", "start"]
+CMD ["npm", "server/start"]
